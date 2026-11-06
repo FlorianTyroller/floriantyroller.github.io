@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ocean.rip — research index</title>
+<meta name="description" content="Reverse engineering and documentation projects: legacy WiFi firmware, Samsung Smart Hub backend protocol.">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>ocean.rip</h1>
+    <p class="tagline">reverse engineering &amp; documentation of legacy systems</p>
+  </header>
+
+  <section class="projects">
+    <a class="card" href="https://orsay.ocean.rip/">
+      <div class="card-domain">orsay.ocean.rip</div>
+      <div class="card-title">Samsung Orsay Smart Hub backend</div>
+      <div class="card-desc">The 2012 Smart Hub protocol (E/F/H series, pre-Tizen), documented from live
+      captures — 13 endpoints, SSL&nbsp;3.0 transport, PKI. The backend is still operated today.</div>
+      <div class="card-meta">protocol reference&nbsp;· 2026&nbsp;· <span class="src">github: orsay-openapi</span></div>
+    </a>
+
+    <a class="card" href="https://fw.ocean.rip/">
+      <div class="card-domain">fw.ocean.rip</div>
+      <div class="card-title">Realtek RTL8188CUS / RTL8192CU firmware</div>
+      <div class="card-desc">The 16&nbsp;KB 8051 firmware inside the ubiquitous 2012-era USB WiFi
+      adapters — disassembly, host↔firmware protocol, interrupts, rate adaptation, an emulator,
+      and the field-wedge investigation.</div>
+      <div class="card-meta">firmware reference&nbsp;· 2026&nbsp;· <span class="src">github: rtl8192cu-fw</span></div>
+    </a>
+
+    <div class="card card-wip">
+      <div class="card-domain">samsungtv.ocean.rip</div>
+      <div class="card-title">Rooting &amp; reviving the 2012 Samsung E-series</div>
+      <div class="card-desc">End-to-end guide: reviving a dead Smart Hub with an SSL&nbsp;3.0 relay and
+      the still-live Samsung backend, and taking a UE40EH5300 to permanent boot-level root.</div>
+      <div class="card-meta">in progress</div>
+    </div>
+  </section>
+
+  <footer>
+    <a href="https://github.com/FlorianTyroller">github.com/FlorianTyroller</a>
+  </footer>
+</main>
+</body>
+</html>
